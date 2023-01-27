@@ -4,7 +4,9 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int gappx     = 23;       /* gaps between windows */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Montserrat:size=12", "TerminessTTF Nerd Font Mono:size=29", "Font Awesome 6 Brands Regular:size=13" };
+static const int horizpadbar        = 4;        /* horizontal padding for statusbar */
+static const int vertpadbar         = 5;        /* vertical padding for statusbar */
+static const char *fonts[]          = { "Montserrat:size=12:antialias=true:hinting=true", "TerminessTTF Nerd Font Mono:size=34:antialias=true:hinting=true", "Font Awesome 6 Brands Regular:size=15:antialias=true:hinting=true" };
 static const char dmenufont[]       = "Montserrat:size=12";
 static const char col_gray1[]       = "#222222"; //background color
 static const char col_gray2[]       = "#301934"; //inactive window border color
@@ -18,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = {"", "", "", "", "󰊖", "", "", "" };
+static const char *tags[] = {"", "", "", "", "", "󱩼", "󱜅", "ﴤ" };
 
 static const Rule rules[] = {
 	/* xprop(1):
