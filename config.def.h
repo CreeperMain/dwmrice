@@ -6,7 +6,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int horizpadbar        = 4;        /* horizontal padding for statusbar */
 static const int vertpadbar         = 5;        /* vertical padding for statusbar */
-static const char *fonts[]          = { "Montserrat:size=12:antialias=true:hinting=true", "TerminessTTF Nerd Font Mono:size=34:antialias=true:hinting=true", "Font Awesome 6 Brands Regular:size=15:antialias=true:hinting=true" };
+static const char *fonts[]          = { "Montserrat:size=12:antialias=true:hinting=true", "TerminessTTF Nerd Font Mono:size=34:antialias=true:hinting=true", "Font Awesome 6 Brands Regular:size=15:antialias=true:hinting=true", "MesloLGS NF:pixelsize=18:antialias=true:autohint=true" };
 static const char dmenufont[]       = "Montserrat:size=12";
 static const char col_gray1[]       = "#222222"; //background color
 static const char col_gray2[]       = "#301934"; //inactive window border color
